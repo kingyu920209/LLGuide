@@ -15,6 +15,9 @@
 		0CB16FFC20B1EE7B006E29FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB16FFB20B1EE7B006E29FB /* main.m */; };
 		0CB1700620B1EE7B006E29FB /* LLYinDaoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB1700520B1EE7B006E29FB /* LLYinDaoTests.m */; };
 		0CB1701120B1EE7B006E29FB /* LLYinDaoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB1701020B1EE7B006E29FB /* LLYinDaoUITests.m */; };
+		0CB1702020B1EEA5006E29FB /* WawaSC-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0CB1701F20B1EEA5006E29FB /* WawaSC-Regular.otf */; };
+		0CB1702320B1EEDD006E29FB /* LLGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB1702220B1EEDD006E29FB /* LLGuideViewController.m */; };
+		0CB1702620B1F0A4006E29FB /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB1702520B1F0A4006E29FB /* UIView+Frame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		0CB1700C20B1EE7B006E29FB /* LLYinDaoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLYinDaoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CB1701020B1EE7B006E29FB /* LLYinDaoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLYinDaoUITests.m; sourceTree = "<group>"; };
 		0CB1701220B1EE7B006E29FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CB1701F20B1EEA5006E29FB /* WawaSC-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WawaSC-Regular.otf"; sourceTree = "<group>"; };
+		0CB1702120B1EEDD006E29FB /* LLGuideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLGuideViewController.h; sourceTree = "<group>"; };
+		0CB1702220B1EEDD006E29FB /* LLGuideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLGuideViewController.m; sourceTree = "<group>"; };
+		0CB1702420B1F0A4006E29FB /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		0CB1702520B1F0A4006E29FB /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,7 @@
 		0CB16FEB20B1EE7A006E29FB /* LLYinDao */ = {
 			isa = PBXGroup;
 			children = (
+				0CB1701E20B1EE8F006E29FB /* LLGuide */,
 				0CB16FEC20B1EE7A006E29FB /* AppDelegate.h */,
 				0CB16FED20B1EE7A006E29FB /* AppDelegate.m */,
 				0CB16FEF20B1EE7A006E29FB /* ViewController.h */,
@@ -130,6 +139,18 @@
 				0CB1701220B1EE7B006E29FB /* Info.plist */,
 			);
 			path = LLYinDaoUITests;
+			sourceTree = "<group>";
+		};
+		0CB1701E20B1EE8F006E29FB /* LLGuide */ = {
+			isa = PBXGroup;
+			children = (
+				0CB1701F20B1EEA5006E29FB /* WawaSC-Regular.otf */,
+				0CB1702120B1EEDD006E29FB /* LLGuideViewController.h */,
+				0CB1702220B1EEDD006E29FB /* LLGuideViewController.m */,
+				0CB1702420B1F0A4006E29FB /* UIView+Frame.h */,
+				0CB1702520B1F0A4006E29FB /* UIView+Frame.m */,
+			);
+			path = LLGuide;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +258,7 @@
 			files = (
 				0CB16FF920B1EE7B006E29FB /* LaunchScreen.storyboard in Resources */,
 				0CB16FF620B1EE7B006E29FB /* Assets.xcassets in Resources */,
+				0CB1702020B1EEA5006E29FB /* WawaSC-Regular.otf in Resources */,
 				0CB16FF420B1EE7A006E29FB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +287,8 @@
 				0CB16FF120B1EE7A006E29FB /* ViewController.m in Sources */,
 				0CB16FFC20B1EE7B006E29FB /* main.m in Sources */,
 				0CB16FEE20B1EE7A006E29FB /* AppDelegate.m in Sources */,
+				0CB1702620B1F0A4006E29FB /* UIView+Frame.m in Sources */,
+				0CB1702320B1EEDD006E29FB /* LLGuideViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
